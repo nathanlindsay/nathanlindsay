@@ -31,9 +31,9 @@
 </svelte:head>
 
 <div class="p-6">
-	<div class="max-w-lg mx-auto space-y-12">
-		<header class="text-center space-y-6">
-			<h1 class="font-medium text-xl">Nathan Lindsay</h1>
+	<div class="mx-auto max-w-lg space-y-6">
+		<header class="space-y-6 text-center">
+			<h1 class="text-xl font-medium">Nathan Lindsay</h1>
 
 			<div>
 				<p>I might do something with this website one day.</p>
@@ -41,8 +41,8 @@
 			</div>
 		</header>
 
-		<main class="flex gap-12">
-			<h2 class="font-medium text-lg flex-1">Work</h2>
+		<main class="flex gap-6">
+			<h2 class="flex-1 text-lg font-medium">Work</h2>
 			<div class="space-y-6">
 				{#each jobs as { where, what, when }}
 					<div>
