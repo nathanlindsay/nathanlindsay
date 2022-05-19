@@ -1,0 +1,19 @@
+{
+  "name": "@example/minimal",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "format": "prettier -w"
+  },
+  "devDependencies": {
+    "@astrojs/svelte": "^0.1.3",
+    "@astrojs/tailwind": "^0.2.1",
+    "astro": "^1.0.0-beta.30",
+    "prettier-plugin-astro": "^0.1.0-next.4",
+    "svelte": "^3.48.0"
+  }
+}
